@@ -1,0 +1,45 @@
+body{
+    background-color: cadetblue;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    width: 30%;
+    height: 95%;
+    background-image: url("https://t3.ftcdn.net/jpg/04/21/44/40/360_F_421444029_AZSu1FbsZ2Nmn4SBu8NgoNMYkyWBTlLU.jpg");
+    border-radius: 10px solid rgb(211,211,211);
+    padding: 20px;
+    box-shadow: 12px 12px 12px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.card-body a{
+    color: white;
+    text-decoration: none;
+}
+
+.card-footer button{
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 1em;
+    padding: .8em;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    outline: auto;
+    border: 2px solid skyblue;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+.card-title{
+    font-weight: bold;
+    padding-left: 25%;
+}
